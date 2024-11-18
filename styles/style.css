@@ -1,0 +1,366 @@
+
+/* .head {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+}
+.p-1 {
+    border: 1px;
+    background-color: rgba(223, 12, 47, 0.892);
+    height: 20%;
+    min-height: 8vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 5px;
+    
+}
+
+.p-2 {
+    border: 1px;
+    margin-top: 0px;  /* sets top margin 
+    margin-bottom: 0px; 
+    background-color: brown;
+    height: 50px;
+    display: flex;
+    align-content: center; 
+    gap: 15px;
+    font-size: small;
+}
+
+.p-3 {
+    border: 1px ;
+    margin: 0px;
+    min-height: 60vh;
+    padding-top: 10px;
+    
+
+}
+.p-4 {
+    border: 1px;
+    margin: 10px;
+    min-height:40vh;
+    background-color: rgb(242, 234, 234);
+    
+} */
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+.sect {
+    background-color: rgb(189, 180, 180);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 16px 10px 16px 10px;
+}
+
+.sect-2 {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 16px 10px 16px 10px;
+}
+
+.sect-3 {
+    background-color: rgb(109, 21, 36);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+.box-sect {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.boxin-sect { 
+    border: rgb(209, 198,198);            
+    border-radius: 5px; 
+    width: 100px; 
+    height: 50px;
+    padding: 15px;
+    text-align: center; 
+    font-size: 10px;
+    background-color: white;
+    box-shadow: 5px #888888;
+}
+
+
+
+.sect-box2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.sect-box2 h1 {
+    display: flex;
+     gap: 40px;
+}
+
+
+.box1 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 5px #888888;
+    border: 1px solid rgb(245, 245, 245);
+    padding: 10px 50px; 
+    cursor: pointer; 
+    border-radius: 1px; 
+    box-shadow: 2px 2px rgb(255, 255, 255);"
+}
+
+.box1:hover {
+    box-shadow: 5px 5px rgb(222, 220, 220);
+}
+
+.sect-box3 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.box1-3 {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+.box1-3:hover {
+    box-shadow: 1px grey;
+}
+
+.sect-box8 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    line-height: 23px;
+    font-weight: 50;
+    background-color: white;
+}
+
+.sect-box9 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(70, 66, 66);
+    color: rgba(245, 245, 245, 0.834);
+    padding: 10px;
+   
+}
+
+.sect-box9 p {
+    cursor: pointer;
+    
+}
+
+
+.sect-box9 p:hover {
+    color: white; 
+}
+
+.sect-box9 a:hover {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(8, 6, 6);
+    color: rgba(255, 255, 255, 0.638);
+    padding: 20px;
+}
+
+.footer p:hover {
+    color: white;
+    padding: 0.6px;
+}
+
+.footer h4:hover {
+    color: white;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #8f8e8e;
+}
+
+.footer-section a {
+    color: rgba(255, 255, 255, 0.638);
+    text-decoration: none
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+
+work on this 
+
+/* Section Styles */
+.sect-box2 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header-box {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    color: white;
+}
+
+.header-box h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-box span {
+    font-weight: normal;
+    font-size: 17px;
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Content Styles */
+.content-box {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+    border: none; /* Invisible border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    width: 30%;
+    text-align: center;
+}
+
+.box:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-5px); /* Lift effect */
+    transition: all 0.3s ease;
+}
+
+/* Text Styles */
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-price {
+    font-size: 16px;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.item-save {
+    font-size: 14px;
+    color: grey;
+}
+
+
+this too 
+
+/* Section Styles */
+.sect-box3 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header-box3 {
+    border-bottom: 1px solid grey;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Item Box Styles */
+.box1-3 {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 0 0 auto; /* Prevent shrinking and define fixed width */
+    width: 150px; /* Width of each box */
+    text-align: center;
+    padding: 10px;
+}
+
+.box1-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-size: 13px;
+    color: green;
+}
